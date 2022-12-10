@@ -1,0 +1,104 @@
+/* Write your CSS code here. */
+.bg-container {
+  height: 100vh;
+  background-color: #ffc0bb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 50px;
+  width: 80%;
+  max-width: 606px;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feedback-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.emoji-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.image-emoji {
+  width: 30px;
+}
+.emoji-name {
+  color: #0f172a;
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.love-emoji {
+  width: 30px;
+}
+
+.thankyou-heading {
+  font-size: 18px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.thankyou-description {
+  font-size: 8px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 30px;
+    width: 80%;
+    max-width: 606px;
+  }
+  .feedback-heading {
+    font-size: 18px;
+  }
+  .image-emoji {
+    width: 50px;
+  }
+  .thankyou-heading {
+    font-size: 25px;
+    color: #0f172a;
+    text-align: center;
+  }
+
+  .thankyou-description {
+    font-size: 15px;
+    text-align: center;
+  }
+  .love-emoji {
+    width: 60px;
+  }
+  .emoji-name {
+    font-size: 13px;
+  }
+}
